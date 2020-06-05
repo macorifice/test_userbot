@@ -1,4 +1,4 @@
-export function getNumeriPrimi() {
+const getNumeriPrimi = (n) => {
   const numeri_primi = [
     2,
     3,
@@ -34,4 +34,6 @@ export function getNumeriPrimi() {
   }
 
   return result;
-}
+};
+
+module.exports = getNumeriPrimi;
