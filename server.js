@@ -14,8 +14,8 @@ app.get("/primi", function (req, res) {
 const primi = (n) => {
   const result = [];
   for (const i = 0; i <= n; i++) {
-    if (n > 0) {
-      result.push(n);
+    if (n > 0 && n/n === 1) {
+      result.push(i);
     }
 
     return result;
