@@ -1,0 +1,8 @@
+.*
+docs
+mkdocs.yml
+docker-compose.yml
+docker-compose.yaml
+test*
+*.md
+!README.md
