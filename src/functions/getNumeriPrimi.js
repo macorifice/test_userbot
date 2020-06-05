@@ -29,8 +29,8 @@ const getNumeriPrimi = (n) => {
 
   const result = [];
 
-  for (let index = 0; index <= numeri_primi.length; index++) {
-    if (numeri_primi[index] < n) result.push(numeri_primi[index]);
+  for (let index = 0; index < n; index++) {
+    result.push(numeri_primi[index]);
   }
 
   return result;
